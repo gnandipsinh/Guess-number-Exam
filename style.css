@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1000px;
+    min-height: 400px;
+     background-color: #76ca27;
+    color: #131212;
+    font-family: "Arial", sans-serif;
+    border: 1px solid #222;
+}
+
+
+.again-btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 0;
+    background-color: #fff;
+    color: #222;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.game-area {
+    margin-top: 15px;
+}
+
+
+.guess {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+
+.guess-btn {
+    width: 110px;
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 0;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+}
+
+.check-btn {
+    display: block;
+    margin: 13px auto;
+    padding: 7px 14px;
+    border: 1px solid #222;
+    border-radius: 0;
+    background-color: #fff;
+    color: #222;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+.message {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+
+.game-area p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#score,
+#highscore {
+    font-weight: bold;
+    color: #fff;
+}
+
+.number {
+    width: 133px;
+    height: 54px;
+    background-color: #eeeeee;
+    color: #222;
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    margin: 13px auto;
+    padding: 7px 14px;
+}
